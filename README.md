@@ -7,10 +7,13 @@ FastAPI + MongoDB service for employee attendance. All code is in `app/main.py`.
 - `POST /employees`, `GET /employees`
 - `POST /attendance/punch-in`, `POST /attendance/punch-out`
 - `GET /attendance`
+- `GET /analytics/leaderboard/late`
 
 ## Not implemented (ran out of time)
 - `PATCH /attendance/{emp_code}/{date}`
-- The four `/analytics/...` endpoints
+- `GET /analytics/employees/{emp_code}/monthly`
+- `GET /analytics/departments/summary`
+- `GET /analytics/departments/{department}/trend`
 - `GET /admin/explain/{endpoint}`
 
 ## Run locally
